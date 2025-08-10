@@ -77,20 +77,20 @@ Types of variables:
 
 
 """
-# x = 10 #integer 
-# y = "hello pranith!" # string
+x = 10 #integer 
+y = "hello pranith!" # string
 
-# z = 1.0 #float
-
-
+z = 1.0 #float
 
 
-# print(id(x))
-# print(id(y))
 
-# print(id(z))
 
-# print(type(x))
+print(id(x))
+print(id(y))
+
+print(id(z))
+
+print(type(x))
 
 """
 Multiple Assignments
@@ -113,7 +113,43 @@ We can assign different values to multiple variables simultaneously, making the 
 # print(c)
 
 
-a =10
-b = 10
+# a =10
+# b = 10
 
-print( a == b )
+# print( a == b )
+
+# a = 5
+# b = a
+# b = 10
+# c = 10 
+# z = c    # z value is not change it still hold c value that is 10 beacuse (int) are immutable.
+# c= c +1
+# print(a) # output of a is 5 beacuse it hold a hold 5 in pyhton integers are immutable.
+# print(b)
+# print(z)
+
+
+
+# print(0.1+0.2 == 0.3)
+
+# print(0.2 + 0.2 == 0.4)
+
+# print(f"{0.1:.17f}")
+# print(f"{0.2:.17f}")
+
+# print(0.10000000000000001+0.20000000000000001)
+
+# print(f"{0.3:.17f}")
+
+
+
+# import math
+# print(math.isclose(0.1 + 0.2, 0.3))  # True
+
+# a = '3'
+# b = "7"
+# print(int(a) + int(b))     # Output: 15
+
+a = "4"
+b = 2
+print(a * b)
